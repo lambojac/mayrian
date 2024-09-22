@@ -179,24 +179,26 @@ const Home = () => {
     </div>
 {/* end of section */}
 
-    <div className="app-container">
+   <div class="app-container">
       <header className="header">
         <div className="container">
-          <h1>Get Started</h1>
+          <h1 className="color-blue">Get Started</h1>
           <p>To invest in one of our offerings, please contact your Financial Professional</p>
           <p>If you are a Financial Professional interested in one of our offerings for your clients or yourself, please <a href="#">contact us</a></p>
         </div>
         <div className="header-right">
           <div className="header-item">
             <h2>Lorem ipsum Dolor Sita Ameno</h2>
-            <a href="#">VISIT HERE</a>
+            <a href="#" className='color-blue'>VISIT HERE</a>
           </div>
           <div className="header-item">
             <h2>Lorem ipsum Dolor Sita Ameno</h2>
-            <a href="#">CONTACT US</a>
+            <a href="#" className='color-blue'>CONTACT US</a>
           </div>
         </div>
       </header>
+
+      </div>
       <main className="main">
         <div className="container">
           <div className="main-left">
@@ -215,7 +217,7 @@ const Home = () => {
           </div>
           <div className="main-right">
             <div className="hug">
-              <div className="hug-text">1440 x Hug</div>
+              
             </div>
             <div className="property-types">
               <h3>PROPERTY TYPES</h3>
@@ -272,7 +274,7 @@ const Home = () => {
           </div>
         </div>
       </footer>
-    </div>
+    
 
 
   
