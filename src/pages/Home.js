@@ -64,10 +64,10 @@ const Home = () => {
 
           {/* Right Content: Text */}
           <div className="text-container">
-            <h2>Work with Our Team of Experts at Nuel & May</h2>
+            <h2>Work with Our Team of Experts at<br/> Nuel & May</h2>
             <p>
-              sit cursus massa non laoreet lobortis, Cras est placerat tincidunt volutpat non, nisi id nisi non eu volutpat dui felis, nec amet laoreet ex in amet lacus.
-              Nullam vitae tincidunt ex ultrices tincidunt ipsum efficitur. Quisque cursus tortor. volutpat maximus lorem. quis vitae scelerisque dui. adipiscing fringilla.
+              sit cursus massa non laoreet lobortis, Cras est placerat<br/> tincidunt volutpat non, nisi id nisi non eu volutpat dui felis,<br/> nec amet laoreet ex in amet lacus.
+              Nullam vitae tincidunt ex ultrices tincidunt <br/>ipsum efficitur.<br/> Quisque cursus tortor. volutpat maximus lorem. <br/>quis vitae scelerisque dui. adipiscing fringilla.
             </p>
             <p>
           Learn more about our services

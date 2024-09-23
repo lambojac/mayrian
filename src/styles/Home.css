@@ -68,22 +68,10 @@
 /* end */
 
 /* second section */
-.second-section {
-  padding: 60px 20px;
-  background-color: #f2f2f2;
-}
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
-.content-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 40px;
-}
+
+
 
 .image-container {
   flex: 1;
@@ -100,11 +88,14 @@
 }
 
 .text-container {
-  flex: 1;
-  padding-left: 20px;
+ position:relative;
+ left:-250px;
+ overflow: hidden;
+  
 }
 
 .text-container h2 {
+ 
   font-size: 32px;
   color: #2d2d2d;
   margin-bottom: 20px;
@@ -113,7 +104,7 @@
 .text-container p {
   font-size: 16px;
   color: #555;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .learn-more-btn button {
@@ -144,8 +135,7 @@
 
 /* next section */
 .container {
-  width: 100%;
-  max-width: 1200px;
+  
   margin: 0 auto;
   padding: 20px;
 }
@@ -331,7 +321,6 @@ background-color: #f7f7f7;
 }
 
 .next-container {
-max-width: 1200px;
 margin: -60px;
 position:relative;
 left:700px;
@@ -406,7 +395,6 @@ color: #555;
 /* next section */
 .container {
 width: 100%;
-max-width: 1200px;
 margin: 0 auto;
 padding: 20px;
 }
@@ -642,7 +630,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Container */
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -699,10 +686,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 40px;
 }
 
-.samson img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 /* Property Types, Navigation, Services */
 .property-types, .navigation, .services {
