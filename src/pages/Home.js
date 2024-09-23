@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import "../styles/Home.css"
+import { Arrow } from '../components/Arrow';
 const Home = () => {
     
   const [propertyType, setPropertyType] = useState('');
@@ -30,25 +31,31 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="hero">
-        <div className="hero-content">
-          <h1>Knowledge
+      <div className='left'>
+            <h1>Knowledge
           <br/> Experience
           <br/> Integrity
           <br/> Results.</h1>
-          <p> 
-            sit cursus massa non lorem lobortis, Cras est placerat tincidunt. Lorem ipsum...
-          </p>
+            </div>
+
           <div className="hero-buttons">
-            <button>Investment Sales</button>
-            <button>Property Management</button>
-            <button>Advisory Services</button>
+            <div>
+            <p className='herobutton-left'> 
+          sit cursus massa non laoreet lobortis, <br/>Cras est. placerat tincidunt volutpat non,<br/> nisi id nisi non eu volutpat dui felis, nec amet, laoreet ex in amet,<br/> lacus .Nullam vitae tincidunt ex ultrices tincidunt ipsum efficitur. <br/>Quisque cursus tortor. volutpat maximus lorem. quis vitae scelerisque dui.<br/> adipiscing fringilla , <br/>luctus consectetur viverra hendrerit Nunc <br/>quam nec lorem. lorem. urna. placerat lorem. I<br/>
+          </p>
+            </div>
+          
+            <button>
+                <Arrow />
+                 Investment Sales</button>
+            <button><Arrow />Property Management</button>
+            <button><Arrow />Advisory Services</button>
           </div>
-        </div>
       </section>
       {/* first batch ending */}
  
     <section className="second-section">
-      <div className="container">
+      <div className="next-container">
         <div className="content-wrapper">
           {/* Left Content: Image */}
           <div className="image-container">
@@ -62,9 +69,11 @@ const Home = () => {
               sit cursus massa non laoreet lobortis, Cras est placerat tincidunt volutpat non, nisi id nisi non eu volutpat dui felis, nec amet laoreet ex in amet lacus.
               Nullam vitae tincidunt ex ultrices tincidunt ipsum efficitur. Quisque cursus tortor. volutpat maximus lorem. quis vitae scelerisque dui. adipiscing fringilla.
             </p>
-            <a href="#" className="learn-more-btn">
-              <button>Learn more about our services</button>
-            </a>
+            <p>
+          Learn more about our services
+            </p>
+              
+            
           </div>
         </div>
 
