@@ -95,7 +95,7 @@ const Home = () => {
         <div className="card">
           <img src="firsthouse.png" alt="Houses by the water" />
           <div className="content">
-            <h3>Lorem ipsum dolor sita ameno ipsum dolor</h3>
+            <h3>this is testing</h3>
             <p>sit cursus massa non laoreet lobortis, Cras est. placerat tincidunt volutpat no...</p>
             <button>Read more</button>
           </div>
