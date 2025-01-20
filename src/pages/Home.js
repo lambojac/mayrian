@@ -67,7 +67,7 @@ const Home = () => {
             <h2>Work with Our Team of Experts at<br/> Nuel & May</h2>
             <p>
               sit cursus massa non laoreet lobortis, Cras est placerat<br/> tincidunt volutpat non, nisi id nisi non eu volutpat dui felis,<br/> nec amet laoreet ex in amet lacus.
-              Nullam vitae tincidunt ex ultrices tincidunt <br/>ipsum efficitur.<br/> Quisque cursus tortor. volutpat maximus lorem. <br/>quis vitae scelerisque dui. adipiscing fringilla.
+              Nullam vitae tincidunt ex ultrices tincidunt <br/>ipsum efficitur. <br/> Quisque cursus tortor. volutpat maximus lorem. <br/>quis vitae scelerisque dui. adipiscing fringilla.
             </p>
             <p>
           Learn more about our services
@@ -143,6 +143,7 @@ const Home = () => {
               <option value="new-york">New York</option>
               <option value="los-angeles">Los Angeles</option>
               <option value="chicago">Chicago</option>
+              <option value="chicago">Nigeria</option>
             </select>
           </div>
           <button className="reset-button">Reset</button>
